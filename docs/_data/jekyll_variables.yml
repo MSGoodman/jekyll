@@ -67,10 +67,13 @@ site:
       A list of all the documents in every collection.
   - name: site.categories.CATEGORY
     description: >-
-      The list of all Posts in category <code>CATEGORY</code>.
+      The list of all Posts in category <code>CATEGORY</code> (or all documents in category
+      <code>CATEGORY</code> if <code>categories_for_all_docs</code> is set to true in the
+      <code>_config.yml</code>).
   - name: site.tags.TAG
     description: >-
-      The list of all Posts with tag <code>TAG</code>.
+      The list of all Posts with tag <code>TAG</code> (or all documents with tag <code>TAG</code>
+      if <code>tags_for_all_docs</code> is set to true in the <code>_config.yml</code>).
   - name: site.url
     description: >-
       Contains the url of your site as it is configured in the <code>_config.yml</code>.
